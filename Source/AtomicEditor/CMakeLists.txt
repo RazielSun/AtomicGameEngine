@@ -106,8 +106,8 @@ if (ATOMIC_WEBVIEW)
             "${CEF_APP}/Contents/Frameworks/${CEF_HELPER_TARGET}.app"
             # Copy the CEF framework into the Frameworks directory.
             COMMAND ${CMAKE_COMMAND} -E copy_directory
-            "${CEF_BINARY_DIR}/CEF.framework"
-            "${CEF_APP}/Contents/Frameworks/CEF.framework"
+            "${CEF_BINARY_DIR}/Chromium Embedded Framework.framework"
+            "${CEF_APP}/Contents/Frameworks/Chromium Embedded Framework.framework"
             VERBATIM
         )
 
